@@ -1,0 +1,480 @@
+@import "compass/css3";
+// Responsive Layouts
+@import "_media-queries";
+@import "_functions";
+@import "_mixins";
+
+@include max-screen(996px){
+	.site-container{
+
+		header{
+			&.affix{
+				.navbar{
+					.navbar-collapse{
+						nav{
+							ul{
+								li{
+									a{
+										padding: 27px 13px;
+										font-size: 12px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.navbar{
+				.navbar-collapse{
+					nav{
+						ul{
+							li{
+								a{
+									padding: 45px 11px;
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.wrapper{
+			section{
+				.section-black{
+					.demo-section{
+						.demo-circle{
+							h2{
+								font-size: em(18);
+							}
+							p{
+								font-size: 11px;
+							}
+						}
+					}
+				}
+
+				//Fashion intro
+				&.fashion-intro{
+					.splash-heading{
+						&:before{
+							display: none;
+						}
+
+						&:after{
+							display: none;
+						}
+
+						h1{
+							font-size: 2em;
+							span{
+								&:after{
+								}
+							}
+						}
+
+						h2{
+							font-size: 4em;
+							span{
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@include max-screen(767px){
+	.site-container{
+		header{
+
+			.container{
+				&:after{
+					display: none;
+				}
+			}
+			.navbar{
+				// Brand Logo
+				a.navbar-brand{
+					img{
+					}
+					span{
+					}
+				}
+				// Navigation
+				.navbar-collapse{
+					nav{
+						ul{
+							li{
+								float: none;
+								width: 100%;
+								a{
+									padding: 15px 30px !important;
+
+									&:after{
+										display: none !important;
+									}
+
+									&:hover{
+									}
+
+									&.active{
+									}
+								}
+
+								> ul.drop-down{
+									position: static !important;
+								  	width: 100% !important;
+								  	background-color: #FFF !important;
+								  	padding: 0 !important;
+
+								  	visibility: visible !important;
+									opacity: 1 !important;
+									border: none !important;
+									-webkit-transform: rotateX(0deg) !important; 
+									-moz-transform: rotateX(0deg) !important; 
+									-ms-transform: rotateX(0deg) !important; 
+									-o-transform: rotateX(0deg) !important; 
+									transform: rotateX(0deg) !important;
+
+									li{
+										background-color: #FFF !important;
+										a{
+											background-color: #FFF !important;
+											font-size: 12px !important;
+
+											&:hover{
+												color: #55c8ff !important;
+											} 
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.fullwidth-slider{
+		}
+	}
+}
+
+
+@include max-screen(960px){
+	.site-container{
+		.wrapper{
+			.blubcontent{
+				.circle-text{
+					div{
+						font-size: 13px !important;
+						line-height: 5px !important;
+					}
+				}
+			}
+
+			section{
+
+				#table-style-one{
+					display: none !important; 
+				}
+
+				.restable{
+					display: block !important;
+				}
+
+				.section-black{
+					.enter-demo{
+						h2{
+							text-align: center !important;
+						}
+						.view-more{
+							display: table !important;
+							margin: 20px auto 0 !important;
+						}
+					}
+				}
+
+				// Portfolio One
+				.portfolio-one{
+					ul{
+						.item{
+							width: 25% !important;
+						}
+					}
+				}
+
+				// Portfolio Two
+				.portfolio-two{
+					ul{
+						.item{
+							width: 100% !important;
+						}
+					}
+				}
+
+				// Portfolio Three
+				.portfolio-three{
+					ul{
+						.item{
+							width: 50% !important;
+						}
+					}
+				}
+
+				// Portfolio Four
+				.portfolio-four{
+					ul{
+						.item{
+							width: 25% !important;
+						}
+					}
+				}
+
+			}
+		}
+	}
+}
+
+@include max-screen(640px){
+
+	.site-container{
+		.wrapper{
+			.blubcontent{
+				.circle-text{
+					div{
+						font-size: 10px !important;
+						line-height: 0px !important;
+					}
+				}
+			}
+
+			section{
+
+				// Portfolio One
+				.portfolio-one{
+					ul{
+						.item{
+							width: 33.3333333333%;
+						}
+					}
+				}
+
+				// Portfolio Two
+				.portfolio-two{
+					ul{
+						.item{
+							width: 100% !important;
+						}
+					}
+				}
+
+				// Portfolio Three
+				.portfolio-three{
+					ul{
+						.item{
+							width: 100% !important;
+						}
+					}
+				}
+
+				// Portfolio Four
+				.portfolio-four{
+					ul{
+						.item{
+							width: 50% !important;
+						}
+					}
+				}
+
+				&.border-section{
+					> .container{
+						.section-title{
+							margin-bottom: 80px !important;
+						}
+					}
+				}
+
+				//Fashion intro
+				&.fashion-intro{
+					.splash-heading{
+						&:before{
+							display: none;
+						}
+
+						&:after{
+							display: none;
+						}
+
+						h1{
+							font-size: 1em;
+							span{
+								&:after{
+								}
+							}
+						}
+
+						h2{
+							font-size: 2em;
+							span{
+							}
+						}
+					}
+				}
+
+
+				.testimonials{
+
+					.client{
+						> a{
+							float: none;
+							margin: 0 auto 30px;
+						}
+						.content{
+							margin-left: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include max-screen(400px){
+	.site-container{
+		.wrapper{
+			.blubcontent{
+				.circle-text{
+					div{
+						font-size: 6px !important;
+						line-height: 0px !important;
+						span{
+							line-height: 19px;
+						}
+					}
+				}
+			}
+
+			section{
+				.section-black{
+					.enter-demo{
+						margin-top: 220px;
+					}
+				}
+
+				// Portfolio One
+				.portfolio-one{
+					ul{
+						.item{
+							width: 100%;
+						}
+					}
+				}
+
+				// Portfolio Two
+				.portfolio-two{
+					ul{
+						.item{
+							width: 100% !important;
+						}
+					}
+				}
+
+				// Portfolio Three
+				.portfolio-three{
+					ul{
+						.item{
+							width:100% !important;
+						}
+					}
+				}
+
+				// Portfolio Four
+				.portfolio-four{
+					ul{
+						.item{
+							width: 100% !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@include max-screen(1024px){
+	.site-container{
+		header{
+
+			.container{
+				&:after{
+				}
+			}
+			.navbar{
+				// Brand Logo
+				a.navbar-brand{
+					img{
+					}
+					span{
+					}
+				}
+				// Navigation
+				nav{
+					ul{
+						li{
+
+							a{
+								&:hover{
+								}
+
+								&.active{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.fullwidth-slider{
+		}
+	}
+}
+
+@include max-screen(1200px){
+	.site-container{
+		.wrapper{
+			section{
+				//Fashion intro
+				&.fashion-intro{
+					.splash-heading{
+						&:before{
+							display: none;
+						}
+
+						&:after{
+							display: none;
+						}
+
+						h1{
+							span{
+								&:after{
+								}
+							}
+						}
+
+						h2{
+							span{
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

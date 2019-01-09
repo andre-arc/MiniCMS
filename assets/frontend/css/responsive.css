@@ -1,0 +1,170 @@
+@media screen and (max-width: 996px) {
+  .site-container header.affix .navbar .navbar-collapse nav ul li a {
+    padding: 27px 13px;
+    font-size: 12px;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li a {
+    padding: 45px 11px;
+    font-size: 14px;
+  }
+  .site-container .wrapper section .section-black .demo-section .demo-circle h2 {
+    font-size: 1.125em;
+  }
+  .site-container .wrapper section .section-black .demo-section .demo-circle p {
+    font-size: 11px;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading:before {
+    display: none;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading:after {
+    display: none;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading h1 {
+    font-size: 2em;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading h2 {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .site-container header .container:after {
+    display: none;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li {
+    float: none;
+    width: 100%;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li a {
+    padding: 15px 30px !important;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li a:after {
+    display: none !important;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li > ul.drop-down {
+    position: static !important;
+    width: 100% !important;
+    background-color: #FFF !important;
+    padding: 0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    border: none !important;
+    -webkit-transform: rotateX(0deg) !important;
+    -moz-transform: rotateX(0deg) !important;
+    -ms-transform: rotateX(0deg) !important;
+    -o-transform: rotateX(0deg) !important;
+    transform: rotateX(0deg) !important;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li > ul.drop-down li {
+    background-color: #FFF !important;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li > ul.drop-down li a {
+    background-color: #FFF !important;
+    font-size: 12px !important;
+  }
+  .site-container header .navbar .navbar-collapse nav ul li > ul.drop-down li a:hover {
+    color: #55c8ff !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .site-container .wrapper .blubcontent .circle-text div {
+    font-size: 13px !important;
+    line-height: 5px !important;
+  }
+  .site-container .wrapper section #table-style-one {
+    display: none !important;
+  }
+  .site-container .wrapper section .restable {
+    display: block !important;
+  }
+  .site-container .wrapper section .section-black .enter-demo h2 {
+    text-align: center !important;
+  }
+  .site-container .wrapper section .section-black .enter-demo .view-more {
+    display: table !important;
+    margin: 20px auto 0 !important;
+  }
+  .site-container .wrapper section .portfolio-one ul .item {
+    width: 25% !important;
+  }
+  .site-container .wrapper section .portfolio-two ul .item {
+    width: 100% !important;
+  }
+  .site-container .wrapper section .portfolio-three ul .item {
+    width: 50% !important;
+  }
+  .site-container .wrapper section .portfolio-four ul .item {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .site-container .wrapper .blubcontent .circle-text div {
+    font-size: 10px !important;
+    line-height: 0px !important;
+  }
+  .site-container .wrapper section .portfolio-one ul .item {
+    width: 33.3333333333%;
+  }
+  .site-container .wrapper section .portfolio-two ul .item {
+    width: 100% !important;
+  }
+  .site-container .wrapper section .portfolio-three ul .item {
+    width: 100% !important;
+  }
+  .site-container .wrapper section .portfolio-four ul .item {
+    width: 50% !important;
+  }
+  .site-container .wrapper section.border-section > .container .section-title {
+    margin-bottom: 80px !important;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading:before {
+    display: none;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading:after {
+    display: none;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading h1 {
+    font-size: 1em;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading h2 {
+    font-size: 2em;
+  }
+  .site-container .wrapper section .testimonials .client > a {
+    float: none;
+    margin: 0 auto 30px;
+  }
+  .site-container .wrapper section .testimonials .client .content {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site-container .wrapper .blubcontent .circle-text div {
+    font-size: 6px !important;
+    line-height: 0px !important;
+  }
+  .site-container .wrapper .blubcontent .circle-text div span {
+    line-height: 19px;
+  }
+  .site-container .wrapper section .section-black .enter-demo {
+    margin-top: 220px;
+  }
+  .site-container .wrapper section .portfolio-one ul .item {
+    width: 100%;
+  }
+  .site-container .wrapper section .portfolio-two ul .item {
+    width: 100% !important;
+  }
+  .site-container .wrapper section .portfolio-three ul .item {
+    width: 100% !important;
+  }
+  .site-container .wrapper section .portfolio-four ul .item {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .site-container .wrapper section.fashion-intro .splash-heading:before {
+    display: none;
+  }
+  .site-container .wrapper section.fashion-intro .splash-heading:after {
+    display: none;
+  }
+}
